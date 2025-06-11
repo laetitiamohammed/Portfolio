@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            /* Overlay effect for background image */
-            background: 
-                linear-gradient(rgba(25, 40, 60, 0.85), rgba(25, 40, 60, 0.85)),
-                url('ai-generated-9088888_1280.jpg') no-repeat center center fixed;
+            /* Match the projects page: slightly lighter overlay */
+            background:
+                linear-gradient(rgba(25, 40, 60, 0.67), rgba(25, 40, 60, 0.67)),
+                url('data-center-bg.jpg') no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
             margin: 0;
@@ -44,8 +44,8 @@
         nav ul {
             list-style: none;
             padding: 0;
-            background: rgba(20, 30, 50, 0.88);
-            border-radius: 12px;
+            background: none;
+            border-radius: 0;
             display: flex;
         }
         nav li {
@@ -59,6 +59,8 @@
             text-decoration: none;
             font-weight: 600;
             transition: background 0.2s, color 0.2s;
+            background: none;
+            border-radius: 0;
         }
         nav a.active, nav a:hover {
             background: #2e3850;
@@ -72,12 +74,12 @@
             min-height: 60vh;
         }
         .about-box {
-            background: rgba(18, 26, 40, 0.88);
-            border-radius: 22px;
+            background: none;
+            border-radius: 0;
+            box-shadow: none;
             padding: 48px 38px 38px 38px;
             max-width: 680px;
             margin-top: 35px;
-            box-shadow: 0 8px 36px 0 rgba(0,0,0,0.23);
             text-align: center;
         }
         .about-box h2 {
