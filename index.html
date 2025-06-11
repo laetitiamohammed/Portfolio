@@ -2,35 +2,167 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Laetitia Mohammed - Network Administrator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Administrator</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            /* Overlay effect for background image */
+            background: 
+                linear-gradient(rgba(25, 40, 60, 0.85), rgba(25, 40, 60, 0.85)),
+                url('data-center-bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            margin-top: 35px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+        header h2 {
+            font-size: 1.6em;
+            color: #7bdff2;
+            margin: 0;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 35px 0 0 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: rgba(20, 30, 50, 0.88);
+            border-radius: 12px;
+            display: flex;
+        }
+        nav li {
+            margin: 0;
+        }
+        nav a {
+            display: block;
+            padding: 18px 42px;
+            color: #b3bcdf;
+            font-size: 1.3em;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s, color 0.2s;
+        }
+        nav a.active, nav a:hover {
+            background: #2e3850;
+            color: #fff;
+            border-radius: 12px;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+        }
+        .about-box {
+            background: rgba(18, 26, 40, 0.88);
+            border-radius: 22px;
+            padding: 48px 38px 38px 38px;
+            max-width: 680px;
+            margin-top: 35px;
+            box-shadow: 0 8px 36px 0 rgba(0,0,0,0.23);
+            text-align: center;
+        }
+        .about-box h2 {
+            color: #7bdff2;
+            font-size: 2.2em;
+            margin-bottom: 24px;
+            margin-top: 0;
+        }
+        .about-box p {
+            font-size: 1.26em;
+            font-weight: 400;
+            color: #e6eefb;
+            margin: 0 0 10px 0;
+            line-height: 1.6;
+        }
+        /* Lower left corner icons */
+        .corner-icons {
+            position: fixed;
+            left: 24px;
+            bottom: 24px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        .corner-icons i {
+            font-size: 2.2em;
+            transition: color 0.2s, transform 0.2s;
+            opacity: 0.89;
+            cursor: default;
+        }
+        .corner-icons i.fa-linux { color: #333; }
+        .corner-icons i.fa-redhat { color: #ee0000; }
+        .corner-icons i.fa-windows { color: #0078d6; }
+        .corner-icons i.fa-diagram-project { color: #ffb400; }
+        .corner-icons i:hover { 
+            color: #fff; 
+            transform: scale(1.12) rotate(-7deg);
+            opacity: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 35px 0 20px 0;
+            color: #b3bcdf;
+            font-size: 1em;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 700px) {
+            header h1 { font-size: 2em; }
+            nav a { font-size: 1em; padding: 12px 18px; }
+            .about-box { padding: 28px 6vw 20px 6vw; }
+            .about-box h2 { font-size: 1.2em; }
+            .about-box p { font-size: 1em; }
+            .corner-icons i { font-size: 1.6em; }
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Laetitia Mohammed</h1>
-        <div class="subtitle">Network Administrator</div>
+        <h2>Network Administrator</h2>
     </header>
-    
     <nav>
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
-             <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-
     <main>
-        <div class="about-container">
+        <div class="about-box">
             <h2>About Me</h2>
             <p>
-                I’m a very dedicated and highly motivated student at John Abbott College, pursuing an AEC in Network Administration.
-                I’m deeply passionate about this field, and welcome the possibility of learning a new skill with enthusiasm.
-                Here you'll find the work I've completed thus far, showcasing the talent and skill I can contribute to your team.
-                Feel free to contact me should you have any questions!
+                I’m a very dedicated and highly motivated student at John Abbott College, pursuing an AEC in Network Administration. I’m deeply passionate about this field, and welcome the possibility of learning a new skill with enthusiasm. Here you'll find the work I've completed thus far, showcasing the talent and skill I can contribute to your team. Feel free to contact me should you have any questions!
             </p>
         </div>
     </main>
+
+    <!-- Lower left corner icons -->
+    <div class="corner-icons">
+        <i class="fa-brands fa-linux" title="Linux"></i>
+        <i class="fa-brands fa-redhat" title="Red Hat"></i>
+        <i class="fa-brands fa-windows" title="Windows"></i>
+        <i class="fa-solid fa-diagram-project" title="Projects"></i>
+    </div>
 
     <footer>
         <p>&copy; 2025 Laetitia. All rights reserved.</p>
