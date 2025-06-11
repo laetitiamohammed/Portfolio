@@ -2,8 +2,11 @@
 
 body {
     font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #232526 0%, #414345 100%);
-    color: #f5f7fa; /* light color for visibility */
+    background:
+        linear-gradient(rgba(34, 48, 74, 0.93), rgba(34, 48, 74, 0.95)),
+        url('ai-generated-9088888_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f5f7fa;
     margin: 0;
     padding: 0;
 }
@@ -66,9 +69,9 @@ main {
 }
 
 .projects-container {
-    background: #1b2230;
+    background: rgba(27, 34, 48, 0.93);
     border-radius: 14px;
-    box-shadow: 0 4px 24px rgba(34,48,74,0.08);
+    box-shadow: 0 4px 24px rgba(34,48,74,0.18);
     padding: 2.5rem 2rem;
     max-width: 600px;
     width: 100%;
@@ -84,9 +87,9 @@ main {
 }
 
 .project-card {
-    background: #232b3b;
+    background: rgba(35, 43, 59, 0.98);
     border-radius: 8px;
-    box-shadow: 0 1px 10px rgba(34,48,74,0.03);
+    box-shadow: 0 1px 10px rgba(34,48,74,0.10);
     margin-bottom: 1.7rem;
     padding: 1.2rem 1.1rem;
     border-left: 4px solid #365175;
