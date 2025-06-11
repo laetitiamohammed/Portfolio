@@ -29,6 +29,15 @@ header h1 {
     text-shadow: 0 4px 16px rgba(0,0,0,0.4);
 }
 
+.subtitle {
+    color: #8fd3fe;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0.3rem;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(34,48,74,0.11);
+}
+
 nav {
     background: rgba(26, 35, 50, 0.85);
     padding: 0.5rem 0;
