@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f4f4f4;
-    color: #222;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #232526 0%, #414345 100%);
+    color: #23272f;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: linear-gradient(90deg, #c471f5 0%, #fa71cd 100%);
-    color: #fff;
-    padding: 2rem 0 1rem 0;
+    background: #22304a;
+    color: #f5f7fa;
+    padding: 2rem 0 1.2rem 0;
     text-align: center;
+    border-bottom: 2px solid #365175;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 nav {
-    background: #2d2d2d;
-    padding: 0.5rem 0;
+    background: #1a2332;
+    padding: 0.5rem 0 0.5rem 0;
+    box-shadow: 0 2px 8px rgba(34,48,74,0.06);
 }
 
 nav ul {
@@ -38,18 +43,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f5f7fa;
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 500;
     padding: 0.3rem 0.8rem;
-    transition: background 0.2s, color 0.2s;
-    border-radius: 4px;
+    transition: background 0.18s, color 0.18s;
+    border-radius: 5px;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 nav ul li a.active, nav ul li a:hover {
-    background: #fa71cd;
-    color: #2d2d2d;
+    background: #2e3b55;
+    color: #8fd3fe;
 }
 
 main {
@@ -58,39 +64,45 @@ main {
     align-items: flex-start;
     min-height: 80vh;
     padding: 3rem 1rem;
+    background: none;
 }
 
 .projects-container {
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    background: #f5f7fa;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(34,48,74,0.08);
     padding: 2.5rem 2rem;
     max-width: 600px;
     width: 100%;
+    border: 1.5px solid #e1e6ef;
 }
 
 .projects-container h2 {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
+    margin-bottom: 2.2rem;
+    color: #22304a;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
 }
 
 .project-card {
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.03);
+    background: #e9edf5;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px rgba(34,48,74,0.03);
     margin-bottom: 1.7rem;
-    padding: 1.3rem 1.2rem;
+    padding: 1.2rem 1.1rem;
+    border-left: 4px solid #365175;
 }
 
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 1rem;
-    color: #a14bc6;
-    font-size: 1.25rem;
+    color: #22304a;
+    font-size: 1.18rem;
     font-weight: 600;
     letter-spacing: 1px;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 .project-list {
@@ -105,23 +117,26 @@ main {
 
 .project-list li a {
     text-decoration: none;
-    color: #6c3cc2;
+    color: #224c78;
     font-weight: 500;
-    font-size: 1.05rem;
+    font-size: 1rem;
     transition: color 0.15s, text-shadow 0.15s;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 .project-list li a:hover {
-    color: #fa71cd;
-    text-shadow: 0 2px 8px rgba(250,113,205,0.15);
+    color: #1864ab;
+    text-shadow: 0 2px 8px rgba(24,100,171,0.09);
+    border-bottom: 1px dashed #1864ab;
 }
 
 footer {
-    background: #2d2d2d;
-    color: #fff;
+    background: #22304a;
+    color: #f5f7fa;
     text-align: center;
     padding: 0.8rem 0;
     font-size: 1rem;
     margin-top: 2rem;
     letter-spacing: 1px;
+    border-top: 2px solid #365175;
 }
