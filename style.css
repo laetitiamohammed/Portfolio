@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
     background: linear-gradient(120deg, #232526 0%, #414345 100%);
-    color: #23272f;
+    color: #f5f7fa; /* light color for visibility */
     margin: 0;
     padding: 0;
 }
@@ -21,12 +21,11 @@ header h1 {
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 1px;
-    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 nav {
     background: #1a2332;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 0;
     box-shadow: 0 2px 8px rgba(34,48,74,0.06);
 }
 
@@ -50,7 +49,6 @@ nav ul li a {
     padding: 0.3rem 0.8rem;
     transition: background 0.18s, color 0.18s;
     border-radius: 5px;
-    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 nav ul li a.active, nav ul li a:hover {
@@ -68,26 +66,25 @@ main {
 }
 
 .projects-container {
-    background: #f5f7fa;
+    background: #1b2230;
     border-radius: 14px;
     box-shadow: 0 4px 24px rgba(34,48,74,0.08);
     padding: 2.5rem 2rem;
     max-width: 600px;
     width: 100%;
-    border: 1.5px solid #e1e6ef;
+    border: 1.5px solid #23304a;
 }
 
 .projects-container h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2.2rem;
-    color: #22304a;
-    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    color: #8fd3fe;
     font-weight: 700;
 }
 
 .project-card {
-    background: #e9edf5;
+    background: #232b3b;
     border-radius: 8px;
     box-shadow: 0 1px 10px rgba(34,48,74,0.03);
     margin-bottom: 1.7rem;
@@ -98,11 +95,10 @@ main {
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 1rem;
-    color: #22304a;
+    color: #8fd3fe;
     font-size: 1.18rem;
     font-weight: 600;
     letter-spacing: 1px;
-    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 .project-list {
@@ -117,17 +113,16 @@ main {
 
 .project-list li a {
     text-decoration: none;
-    color: #224c78;
+    color: #6cc2ff;
     font-weight: 500;
     font-size: 1rem;
     transition: color 0.15s, text-shadow 0.15s;
-    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
 }
 
 .project-list li a:hover {
-    color: #1864ab;
-    text-shadow: 0 2px 8px rgba(24,100,171,0.09);
-    border-bottom: 1px dashed #1864ab;
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(24,100,171,0.15);
+    border-bottom: 1px dashed #8fd3fe;
 }
 
 footer {
@@ -139,4 +134,8 @@ footer {
     margin-top: 2rem;
     letter-spacing: 1px;
     border-top: 2px solid #365175;
+}
+
+section, .projects-container {
+    color: #f5f7fa;
 }
