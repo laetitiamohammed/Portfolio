@@ -2,176 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Projects - Laetitia Mohammed</title>
+    <title>Projects – Laetitia Mohammed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Projects</h1>
+        <nav class="navbar">
+            <div class="nav-logo">Laetitia Mohammed</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero hero-small">
+            <div class="hero-content">
+                <h1>Projects</h1>
+                <p>Explore some of the hands-on work I’ve completed as part of my Network Administration studies.</p>
+            </div>
+        </section>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <div class="projects-container">
-            <h2>Projects</h2>
-
-            <!-- Active Directory Project -->
-            <div class="project-card">
-                <h3>Active Directory Project</h3>
-                <ul class="project-list">
-                    <li><a href="AD 1.pdf" target="_blank">AD 1.pdf</a></li>
-                    <li><a href="AD 2.pdf" target="_blank">AD 2.pdf</a></li>
-                    <li><a href="AD 3.pdf" target="_blank">AD 3.pdf</a></li>
-                </ul>
+        <section class="section projects-section">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="microsoft-active-directory5035.jpg" alt="Active Directory Project">
+                    <h3>Active Directory Project</h3>
+                    <p>Implementation and management of a Microsoft Active Directory environment, including users, groups, and policies.</p>
+                    <a class="card-btn" href="#" target="_blank">See Details</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="4139633_original.webp" alt="Apache Server Project">
+                    <h3>Apache Server Project</h3>
+                    <p>Deployed and configured an Apache web server on Linux, focusing on security, virtual hosts, and uptime monitoring.</p>
+                    <a class="card-btn" href="#" target="_blank">See Details</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="Linux-Logo-1996-present.png" alt="Network Installation and Administration I">
+                    <h3>Network Installation & Admin I</h3>
+                    <p>Set up and maintained Linux-based networks, including user management, file sharing, and system scripting.</p>
+                    <a class="card-btn" href="#" target="_blank">See Details</a>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="windowserver.jpg" alt="Network Installation and Administration II - Microsoft">
+                    <h3>Network Installation & Admin II (Microsoft)</h3>
+                    <p>Configured Windows Server environments, focusing on services, group policy, and active directory integration.</p>
+                    <a class="card-btn" href="#" target="_blank">See Details</a>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <img src="cisco.png" alt="Cisco Routing">
+                    <h3>Cisco Routing</h3>
+                    <p>Designed and implemented routed networks using Cisco equipment, with a focus on VLANs, routing protocols, and troubleshooting.</p>
+                    <a class="card-btn" href="#" target="_blank">See Details</a>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <img src="GNS3-Transparent-Logo.png" alt="Hot Standby Router Protocol">
+                    <h3>Hot Standby Router Protocol</h3>
+                    <p>Configured and tested HSRP for high availability in simulated enterprise environments using GNS3.</p>
+                    <a class="card-btn" href="#" target="_blank">See Details</a>
+                </div>
             </div>
-
-            <!-- Apache Server Project -->
-            <div class="project-card">
-                <h3>Apache Server Project</h3>
-                <ul class="project-list">
-                    <li>
-                        <a href="Laetitia_Mohammed_Report_P1.pdf" target="_blank">
-                            Laetitia_Mohammed_Report_P1.pdf
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Laetitia_Mohammed_Report_P2.pdf" target="_blank">
-                            Laetitia_Mohammed_Report_P2.pdf
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Laetitia_Mohammed_Report_P3.pdf" target="_blank">
-                            Laetitia_Mohammed_Report_P3.pdf
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Network Installation and Administration I -->
-            <div class="project-card">
-                <h3>Network Installation and Administration I</h3>
-                <ul class="project-list">
-                    <li>
-                        <a href="Lab 2 - Software Installation.pdf" target="_blank">
-                            Lab 2 - Software Installation
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 3 - File System.pdf" target="_blank">
-                            Lab 3 - File System
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 4 - LVM and Quota.pdf" target="_blank">
-                            Lab 4 - LVM and Quota
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 5 - Network and routing configuration.pdf" target="_blank">
-                            Lab 5 - Network and routing configuration
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 6 - Installation and configuration of Telnet and SSH.pdf" target="_blank">
-                            Lab 6 - Installation and configuration of Telnet and SSH
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 7.1 - Installation and configuration of NFS.pdf" target="_blank">
-                            Lab 7.1 - Installation and configuration of NFS
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 7.2 - Installation and configuration of SAMBA.pdf" target="_blank">
-                            Lab 7.2 - Installation and configuration of SAMBA
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 8 - Installation and configuration of CUPS-NTP.pdf" target="_blank">
-                            Lab 8 - Installation and configuration of CUPS-NTP
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Network Installation and Administration II - Microsoft (sorted ascending) -->
-            <div class="project-card">
-                <h3>Network Installation and Administration II - Microsoft</h3>
-                <ul class="project-list">
-                    <li>
-                        <a href="Lab 1 - Preparing the course environment.pdf" target="_blank">
-                            Lab 1 - Preparing the course environment
-                        </a>
-                    </li>
-                    <li>
-                        <a href="lab2.pdf" target="_blank">
-                            lab2.pdf
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab2 - PowerShell Basics & System Administration combined.pdf" target="_blank">
-                            Lab2 - PowerShell Basics & System Administration combined
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab3 - Deploying Domain Controllers.pdf" target="_blank">
-                            Lab3 - Deploying Domain Controllers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 4 - Managing User Accounts.pdf" target="_blank">
-                            Lab 4 - Managing User Accounts
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 5 - Managing Group Accounts in Active Directory.pdf" target="_blank">
-                            Lab 5 - Managing Group Accounts in Active Directory
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab 6 - Managing Computer Objects and Organizational Units.pdf" target="_blank">
-                            Lab 6 - Managing Computer Objects and Organizational Units
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Lab7 - Using PowerShell for bulk user creation.pdf" target="_blank">
-                            Lab7 - Using PowerShell for bulk user creation
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Cisco Routing -->
-            <div class="project-card">
-                <h3>Cisco Routing</h3>
-                <ul class="project-list">
-                    <li>
-                        <a href="Final Lab.pdf" target="_blank">
-                            Final Lab.pdf
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Hot Standby Router Protocol -->
-            <div class="project-card">
-                <h3>Hot Standby Router Protocol</h3>
-                <ul class="project-list">
-                    <li>
-                        <a href="HSRP.pdf" target="_blank">
-                            HSRP.pdf
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Laetitia. All rights reserved.</p>
