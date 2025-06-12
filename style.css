@@ -9,8 +9,11 @@
   --shadow: 0 4px 24px rgba(0,0,0,0.20);
 }
 
+/* Import Quicksand font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 body {
-    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif;
     background:
         linear-gradient(rgba(25, 40, 60, 0.67), rgba(25, 40, 60, 0.67)),
         url('ai-generated-9088888_1280.jpg') no-repeat center center fixed;
@@ -40,7 +43,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.2rem; /* Slightly reduced gap */
+  gap: 1.2rem;
   margin: 0;
   padding: 0;
 }
@@ -48,8 +51,8 @@ body {
   color: #b3bcdf;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.98em;    /* Smaller font size */
-  padding: 9px 14px;    /* Less padding */
+  font-size: 0.98em;
+  padding: 9px 14px;
   border-radius: 12px;
   background: none;
   transition: background 0.2s, color 0.2s;
@@ -361,7 +364,7 @@ footer {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif;
 }
 
 /* Responsive adjustments */
