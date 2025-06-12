@@ -114,7 +114,7 @@ body {
     line-height: 1.6;
 }
 
-/* Lower left corner icons: more visible */
+/* Lower left corner icons */
 .corner-icons {
     position: fixed;
     left: 24px;
@@ -122,45 +122,34 @@ body {
     z-index: 999;
     display: flex;
     flex-direction: column;
-    gap: 22px;
-    /* Add a semi-transparent dark background and blur for visibility */
-    background: rgba(15, 23, 42, 0.72);
-    border-radius: 16px;
-    padding: 18px 10px;
-    box-shadow: 0 2px 16px 4px rgba(0,0,0,0.25);
-    backdrop-filter: blur(2.5px);
+    gap: 18px;
 }
 .corner-icons i {
-    font-size: 2.8em;
+    font-size: 2.2em;
     transition: color 0.2s, transform 0.2s;
-    opacity: 1;
+    opacity: 0.89;
     cursor: default;
-    filter: drop-shadow(0 2px 6px #111);
 }
-.corner-icons i.fa-linux { color: #e8e8e8; background: #333; border-radius: 50%; padding: 6px;}
-.corner-icons i.fa-redhat { color: #fff; background: #ee0000; border-radius: 50%; padding: 6px;}
-.corner-icons i.fa-windows { color: #fff; background: #0078d6; border-radius: 50%; padding: 6px;}
-.corner-icons i.fa-diagram-project { color: #ffb400; background: #2e3850; border-radius: 50%; padding: 6px;}
+.corner-icons i.fa-linux { color: #333; }
+.corner-icons i.fa-redhat { color: #ee0000; }
+.corner-icons i.fa-windows { color: #0078d6; }
+.corner-icons i.fa-diagram-project { color: #ffb400; }
 .corner-icons i:hover { 
     color: #fff; 
-    transform: scale(1.15) rotate(-7deg);
+    transform: scale(1.12) rotate(-7deg);
     opacity: 1;
-    filter: drop-shadow(0 4px 12px #222);
 }
 
 /* Footer Modern */
 footer {
     text-align: center;
-    padding: 20px 0 10px 0;
+    padding: 35px 0 20px 0;
     color: #b3bcdf;
+    font-size: 1em;
+    letter-spacing: 1px;
     background: rgba(30, 41, 59, 0.68);
     margin-top: 2rem;
     border-radius: 18px 18px 0 0;
-}
-.copyright-footer {
-    font-size: 0.85em;
-    letter-spacing: 1px;
-    margin: 0;
 }
 
 @media (max-width: 700px) {
@@ -177,7 +166,5 @@ footer {
     .about-box { padding: 28px 6vw 20px 6vw; }
     .about-box h2 { font-size: 1.2em; }
     .about-box p { font-size: 1em; }
-    .corner-icons { left: 8px; bottom: 8px; padding: 10px 4px; }
-    .corner-icons i { font-size: 2em; }
-    .copyright-footer { font-size: 0.75em; }
+    .corner-icons i { font-size: 1.6em; }
 }
