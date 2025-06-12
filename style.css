@@ -151,13 +151,16 @@ body {
 /* Footer Modern */
 footer {
     text-align: center;
-    padding: 35px 0 20px 0;
+    padding: 20px 0 10px 0;
     color: #b3bcdf;
-    font-size: 1em;
-    letter-spacing: 1px;
     background: rgba(30, 41, 59, 0.68);
     margin-top: 2rem;
     border-radius: 18px 18px 0 0;
+}
+.copyright-footer {
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    margin: 0;
 }
 
 @media (max-width: 700px) {
@@ -176,4 +179,5 @@ footer {
     .about-box p { font-size: 1em; }
     .corner-icons { left: 8px; bottom: 8px; padding: 10px 4px; }
     .corner-icons i { font-size: 2em; }
+    .copyright-footer { font-size: 0.75em; }
 }
